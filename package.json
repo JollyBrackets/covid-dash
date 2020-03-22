@@ -4,15 +4,20 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "makeData": "node makeData.js"
   },
   "dependencies": {
+    "apexcharts": "^3.17.0",
+    "axios": "^0.19.2",
     "core-js": "^3.6.4",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-apexcharts": "^1.5.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.0",
     "@vue/cli-service": "~4.2.0",
+    "csvtojson": "^2.0.10",
     "vue-template-compiler": "^2.6.11"
   }
 }
